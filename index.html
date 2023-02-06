@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 - Portfolio Tasks</title>
+</head>
+<body align="center">
+
+
+<!---------------------------TABLES-------------------------------->
+
+    <!-----------Original table----------->
+
+  <div id="table-1">
+
+    <table border="1px" style="width:20%" cellspacing="0" cellpadding="10">
+
+        <caption>CODING FESTIVAL</caption>                       <!--Caption added-->
+
+          <thead>                                                   <!--Table Header-->
+               <th scope="col" colspan="2">Workshop Schedule</th>
+          </thead>
+
+            <tbody>                                                    <!--Table Body-->
+
+               <tr>
+                 <td>TIME</td>
+                 <td>EVENT</td>
+               </tr>
+
+               <tr>
+                 <td>12:00</td>
+                 <td align="left">Welcome to the festival</td>
+               </tr>
+
+               <tr>
+                 <td>13:00</td>
+                 <td align="left">Python 101</td>
+               </tr>
+
+               <tr>
+                 <td>14:00</td>
+                 <td align="left">Keeping you cyber secure</td>
+               </tr>
+
+               <tr>
+                 <td>15:00</td>
+                 <td align="left">The WWW and HTML</td>
+               </tr>
+            
+               <tr>
+                 <td>16:00</td>
+                 <td align="left">Group Project</td>
+               </tr>
+
+            </tbody>
+    </table>
+
+  </div>
+    
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+   <!--------------Updated table--------------->
+
+  <div id="table-2">
+
+    <table border="1px" style="width:30%" cellspacing="0" cellpadding="10">
+
+      <caption>CODING FESTIVAL</caption>                            <!--Caption added-->
+
+        <thead>                                                       <!--Table Header-->
+          <th scope="col" colspan="3" style="background-color: gold" >Workshop Schedule</th>
+        </thead>
+
+          <tbody>                                                       <!--Table Body-->
+
+               <tr>
+                 <td style="background-color:gold">TIME</td>
+                 <td style="background-color:cyan" colspan="2">EVENT</td>
+               </tr>
+
+               <tr>
+                 <td style="background-color:cyan" ></td>
+                 <td style="background-color:gold" >SATURDAY</td>
+                 <td style="background-color:gold" >SUNDAY</td>
+              </tr>
+
+              <tr>
+                 <td style="background-color:gold">11:00</td>
+                 <td style="background-color:cyan"></td>
+                 <td align="left" style="background-color:cyan" >Python 101</td>
+              </tr>
+
+              <tr>
+                 <td style="background-color:cyan" >12:00</td>
+                 <td align="left" style="background-color:gold" >Welcome to the festival</td>
+                 <td align="left" style="background-color:gold" >Python 101</td>
+               </tr>
+
+               <tr>
+                 <td style="background-color:gold" >13:00</td>
+                 <td align="left" style="background-color:cyan" >Python 101</td>
+                 <td align="left" style="background-color:cyan" >Python 101</td>
+              </tr>
+
+              <tr>
+                 <td style="background-color:cyan" >14:00</td>
+                 <td align="left" style="background-color:gold" >Keeping you cyber secure</td>
+                 <td align="left" style="background-color:gold" >Python 101</td>
+              </tr>
+
+              <tr>
+                 <td style="background-color:gold" >15:00</td>
+                 <td align="left" style="background-color:cyan" >The WWW and HTML</td>
+                 <td align="left" style="background-color:cyan" >Python 101</td>
+              </tr>
+
+              <tr>
+                 <td style="background-color:cyan" >16:00</td>
+                 <td align="left" style="background-color:gold" >Group Project</td>
+                 <td style="background-color:gold"></td>
+              </tr>
+
+              <tr>
+                 <td style="background-color:gold" >17:00</td>
+                 <td style="background-color:cyan"></td>
+                 <td align="left" style="background-color:cyan" >Festival Closing. CEO speech</td>
+              </tr>
+
+          </tbody>
+
+          <tfoot>                                                    <!--Table Footer-->
+              <tr>
+                 <td style="color:goldenrod; background-color:azure"><em>Footer</em></td>
+                 <td style="color:cyan; background-color:azure"><em>Footer</em></td>
+                 <td style="color:cyan; background-color:azure"><em>Footer</em></td>
+              </tr>
+          </tfoot>
+
+    </table>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!---------------------------FORMS-------------------------------->
+
+
+<!----------------------FORM WITH STYLING------------------------->
+
+ <div id="form">
+
+  <table align="center" cellspacing="0" cellpadding="10">
+      <tr>
+          <td style="background-color:rgba(119, 196, 221, 0.686)" align="center"> <h1>Good Vibes Form</h1></td>
+      </tr>
+
+      <tr>
+          <td style="background-color:rgba(119, 196, 221, 0.686)">
+
+              <table cellpadding="10">
+                  <tr>
+                      <td style="background-color:whitesmoke">
+
+                          <h3>Tell us something positive that happened to you today.</h3>
+
+                               <form action="" method="post">
+
+                                  <table align="center" cellspacing="4" style="width:100%">
+
+                                  <!--Text: Name-->
+                                       <tr>
+                                          <td align="right"><label for="name">Name</label></td>
+                                          <td><input type="text" placeholder="Enter your name" size="40" required name="name" id="name"></td>
+                                          <td></td>
+                                      </tr>
+
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+
+                                  <!--Text: Email Address-->
+                                      <tr>
+                                          <td align="right"><label for="email">Email</label></td>
+                                          <td><input type="text" placeholder="Enter your email address" size="40" required name="email" id="email" autocomplete="off"></td>
+                                          <td></td>
+                                      </tr>
+
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+
+                                  <!--Drop-down menu: Age range-->
+                                      <tr>
+                                          <td align="right"><label for="age">What is your age range?</label></td>
+                                          <td>
+                                             <input list="age-range" placeholder="choose your age-range" size="40" name="age" id="age">
+                                              <datalist id="age-range">
+                                                 <option value="15-19">
+                                                 <option value="20-25">
+                                                 <option value="26-32">
+                                                 <option value="33-38">                
+                                                 <option value="39-45">
+                                                 <option value="39-45">
+                                                 <option value="46-50">
+                                                 <option value="51-56">
+                                                 <option value="57-62"> 
+                                                 <option value="63-68">
+                                                 <option value="69+">      
+                                          </td>
+                                      </tr>
+
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+
+                                  <!--Text: How good was it?--> 
+                                      <tr>
+                                         <td align="right"><label for="rate">On a scale of 1-10, how good was it?</label></td>
+                                         <td align="left"><input type="number" min="1" max="10" required name="rate" id="rate"></td>
+                                         <td></td>
+                                      </tr>
+                                  <!--I used "text" type in Core Learning 2 HLT. Here I am using "number" type-->
+                                
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+
+                                  <!--Drop-down menu: Where did it happen?--> 
+                                      <tr>
+                                           <td align="right"><label for="place">Where did it happen?</label></td>
+                                           <td>
+                                               <input list="where-it-happened" placeholder="At home" size="40" name="place" id="place">
+                                               <datalist id="where-it-happened">
+                                                  <option value="At home">
+                                                  <option value="At work">
+                                                  <option value="At school">
+                                                  <option value="At church">
+                                                  <option value="At the gym">
+                                           </td>
+                                      </tr>
+
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr> 
+                                      <tr></tr>  
+
+                                  <!--Radio button: When did it happen?--> 
+                                      <tr>
+                                           <td align="right"><label for="radio_button">At what time of day did it happen?</label></td>
+                                           <td align="left"><input type="radio" name="radio_button" id="morning"><label for="morning">Morning</label></td>
+                                     </tr>
+
+                                      <tr>
+                                          <td></td>
+                                          <td align="left"><input type="radio" name="radio_button" id="afternoon"><label for="afternoon">Afternoon</label></td>
+                                      </tr>
+
+                                      <tr>
+                                          <td></td>
+                                          <td align="left"><input type="radio" name="radio_button" id="evening"><label for="evening">Evening</label></td> 
+                                      </tr>
+
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+
+                                  <!--Checkbox: What emotions did you experienced?-->
+                                      <tr>
+                                          <td align="right"><label for="checkbox">What emotions did you experience?</label></td>
+                                          <td align="left"><input type="checkbox" name="checkbox" id="excited"></t<label for="excited">Excited</label></td>    
+                                      </tr> 
+
+                                       <tr>
+                                          <td align="right">(Select all that apply)</td>
+                                          <td align="left"><input type="checkbox" name="checkbox" id="humbled"></t<label for="humbled">Humbled</label></td>    
+                                      </tr> 
+
+                                       <tr>
+                                          <td></td>
+                                          <td align="left"><input type="checkbox" name="checkbox" id="elated"></t<label for="elated">Elated</label></td>    
+                                      </tr>  
+
+                                       <tr>
+                                          <td></td>
+                                          <td align="left"><input type="checkbox" name="checkbox" id="loved"></t<label for="loved">Loved</label></td>    
+                                      </tr>  
+
+                                      <tr>
+                                          <td></td>
+                                          <td align="left"><input type="checkbox" name="checkbox" id="enthusiastic"></t<label for="enthusiastic">Enthusiastic</label></td>    
+                                      </tr>  
+
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+
+                                  <!--Text area: Describe positive experience-->
+                                      <tr>
+                                          <td align="right"><label for="textarea">Please describe your positive experience.</label></td>
+                                          <td align="left"><textarea name="textarea" rows="3" cols="32">Enter your experience here</textarea></td>
+                                      </tr>
+
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+                                      <tr></tr>
+
+                                  <!--Submit-->
+                                      <tr>
+                                          <td colspan="2"><input type="submit" value="Submit" style="background-color:rgb(109, 153, 235); color: white;"></td>
+                                      </tr>
+
+                                  </table>
+
+                              </form>
+
+                      </td>
+                  </tr>
+
+              </table>
+              
+          </td>
+
+      </tr>
+
+  </table>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+  <!----------------------FORM WITHOUT STYLING------------------------>
+
+<div id="form-1">
+
+   <h1>Good Vibes Form</h1>
+   <h3>Tell us something positive that happened to you today.</h3>
+   
+    <form action="" method="post">
+
+      <table align="center" cellspacing="4">
+
+      <!--Text: Name-->
+          <tr>
+            <td align="right"><label for="name">Name</label></td>
+            <td><input type="text" placeholder="Enter your name" size="40" required name="name" id="name" autocomplete="off"></td> <!--Autocomplete is off-->
+            <td></td>
+          </tr>
+
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+
+      <!--Text: Email Address-->
+          <tr>
+            <td align="right"><label for="email">Email</label></td>
+            <td><input type="text" placeholder="Enter your email address" size="40" required name="email" id="email" autocomplete="off"></td> <!--Autocomplete is off-->
+            <td></td>
+          </tr>
+
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+
+      <!--Drop-down menu: Age range-->
+          <tr>
+            <td align="right"><label for="age">What is your age range?</label></td>
+            <td>
+              <input list="age-range" placeholder="choose your age-range" size="40" name="age" id="age">
+               <datalist id="age-range">
+                <option value="15-19">
+                <option value="20-25">
+                <option value="26-32">
+                <option value="33-38">                
+                <option value="39-45">
+                <option value="39-45">
+                <option value="46-50">
+                <option value="51-56">
+                <option value="57-62"> 
+                <option value="63-68">
+                <option value="69+">      
+            </td>
+         </tr>
+
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+
+       <!--Number: How good was it?-->
+          <tr>
+            <td align="right"><label for="rate">On a scale of 1-10, how good was it?</label></td>
+            <td align="left"><input type="number" min="1" max="10" required name="rate" id="rate"></td>
+            <td></td>
+          </tr>
+
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+
+       <!--Drop-down menu: Where did it happen?-->
+          <tr>
+            <td align="right"><label for="place">Where did it happen?</label></td>
+            <td>
+             <input list="where-it-happened" placeholder="At home" size="40" name="place" id="place">
+             <datalist id="where-it-happened">
+               <option value="At home">
+               <option value="At work">
+               <option value="At school">
+               <option value="At church">
+               <option value="At the gym">
+            </td>
+          </tr>
+
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr> 
+          <tr></tr> 
+
+       <!--Radio button: When did it happen?-->
+          <tr>
+            <td align="right"><label for="radio_button">At what time of day did it happen?</label></td>
+            <td align="left"><input type="radio" name="radio_button" id="morning"><label for="morning">Morning</label></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td align="left"><input type="radio" name="radio_button" id="afternoon"><label for="afternoon">Afternoon</label></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td align="left"><input type="radio" name="radio_button" id="evening"><label for="evening">Evening</label></td> 
+          </tr>
+
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+
+       <!--Checkbox: What emotions did you experienced?-->
+          <tr>
+            <td align="right"><label for="checkbox">What emotions did you experience?</label></td>
+            <td align="left"><input type="checkbox" name="checkbox" id="excited"></t<label for="excited">Excited</label></td>    
+          </tr> 
+
+          <tr>
+            <td align="right">(Select all that apply)</td>
+            <td align="left"><input type="checkbox" name="checkbox" id="humbled"></t<label for="humbled">Humbled</label></td>    
+          </tr>  
+
+          <tr>
+            <td></td>
+            <td align="left"><input type="checkbox" name="checkbox" id="elated"></t<label for="elated">Elated</label></td>    
+          </tr> 
+
+          <tr>
+            <td></td>
+            <td align="left"><input type="checkbox" name="checkbox" id="loved"></t<label for="loved">Loved</label></td>    
+          </tr> 
+
+          <tr>
+            <td></td>
+            <td align="left"><input type="checkbox" name="checkbox" id="enthusiastic"></t<label for="enthusiastic">Enthusiastic</label></td>    
+          </tr> 
+
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+
+       <!--Text area: Describe positive experience-->
+          <tr>
+            <td align="right"><label for="textarea">Please describe your positive experience.</label></td>
+            <td align="left"><textarea name="textarea" rows="3" cols="32" autocomplete="off">Enter your experience here</textarea></td> <!--Autocomplete is off-->
+          </tr>
+
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+
+       <!--Submit-->
+          <tr>
+            <td colspan="2"><input type="submit" value="Submit"></td>
+          </tr>
+
+        </table>
+
+      </form>
+</div>
+
+</body>
+
+</html>
